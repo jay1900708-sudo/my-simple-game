@@ -1,13 +1,31 @@
-<html>
-  <body>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Game</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
-    </head>
+</head>
 
-        <script src="Script.js"></script>
+<body>
+
+    <h1>Click the Target!</h1>
+
+    <p>Score: <span id="score">0</span></p>
+    <p>Time: <span id="timer">30</span></p>
+
+    <button id="startButton">Start Game</button>
+
+    <div id="gameArea">
+        <div id="target"></div>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
